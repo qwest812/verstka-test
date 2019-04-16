@@ -44,7 +44,7 @@ table {
 
 
 body{
-    background: black;
+    /*background: black;*/
 }
 
 
@@ -168,4 +168,31 @@ h1{
     width: 780px;
     margin: 40px auto 0 auto;
     text-align: center;
+}
+.watch_video{
+    /*position: relative;*/
+    width: 205px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid #edf0f2;
+    background: none;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.watch_video div{
+    color: #000;
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+.watch_video div:before{
+    margin-right: 15px;
+    content: '';
+    display: inline-flex;
+    background-image: url(/img/play_Icon.png);
+    width: 10px;
+    height: 10px;
 }
