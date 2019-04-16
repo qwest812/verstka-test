@@ -1,0 +1,109 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+
+
+
+
+.first_block{
+    width: 100%;
+    background-image: url("/img/background.png");
+    background-size: cover;
+    height: 1000px;
+}
+
+.center{
+    width: 1143px;
+    margin: 0 auto;
+}
+.menu_icon{
+    /*display: inline-block !important;*/
+    background-image: url("/img/menu_icon.png");
+    width: 20px;
+    height: 12px;
+}
+.first_block_menu{
+    width: 273px;
+    height: 15px;
+}
+
+.first_block_logo{
+    background-image: url("/img/logo.png");
+    width: 140px;
+    height: 13px;
+    margin-left: 242px;
+}
+.first_block_help{
+    width: 288px;
+    height: 42px;
+    margin-left: 224px;
+}
+.first_block_navigate{
+    display: flex;
+}
+.first_block_navigate>div{
+    border: 1px solid red;
+}
+.list_menu li{
+    display: inline-block;
+}
+.list_menu li a{
+     color: #26272d;
+     text-decoration: none;
+ }
+.list_menu li a:hover{
+    color: #1b1c1e;
+    opacity: 0.4;
+    text-decoration: none;
+}
+.list_menu li:nth-child(2){
+    margin-left: 26px;
+}
+.list_menu li:nth-child(3){
+    margin-left: 42px;
+}
+.list_menu li:last-child{
+    margin-left: 41px;
+}
