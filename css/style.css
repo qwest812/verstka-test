@@ -57,7 +57,7 @@ body{
 }
 
 .center{
-    width: 1143px;
+    /*width: 1143px;*/
     margin: 0 auto;
 }
 .menu_icon{
@@ -76,12 +76,13 @@ body{
 .first_block_help{
     width: 288px;
     height: 42px;
-    margin-left: 224px;
+    /*margin-left: 224px;*/
 }
 .first_block_navigate{
     display: flex;
     padding-top: 44px;
     align-items: center;
+    justify-content: space-between;
 }
 /*.first_block_navigate>div{*/
     /*border: 1px solid red;*/
@@ -112,7 +113,7 @@ body{
     background-image: url("/img/logo.png");
     width: 140px;
     height: 13px;
-    margin-left: 242px;
+    /*margin-left: 242px;*/
 }
 .first_block_logo a{
     display: block;
@@ -208,4 +209,120 @@ h1{
     width: 473px;
     height: 466px;
     margin: 55px auto 0 auto;
+}
+/*----------------- part2 ------------*/
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400');
+.container{
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 122px;
+}
+.lock,.clock{
+    width: 500px;
+
+}
+.lock-mg{
+    background: url("/img/lock_Icon.png");
+    width: 42px;
+    height: 51px;
+}
+.clock-mg{
+    background: url("/img/clock_Icon.png");
+    width: 41px;
+    height: 47px;
+}
+.clock{
+    margin-left: 111px;
+}
+
+.lock-mg h2{
+    color: #26272d;
+    font-family: Lato;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 34px;
+    margin-top: 45px;
+}
+.content{
+    margin: 48px 0 0 ;
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.content p:nth-child(2),.your-day-content p:nth-child(2){
+    margin-top: 45px;
+}
+.iphone-6-2{
+    background: url("/img/iPhone_6-2.png");
+    width: 905px;
+    height: 877px;
+    position: relative;
+    background-position: -126px;
+}
+.your-day{
+    margin: 253px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    /*width: 1600px;*/
+
+}
+
+.your-day-content{
+    color: #8c8f94;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    width: 470px;
+    margin-top: 73px;
+}
+.your-day-buttons{
+    margin-top: 75px;
+    display: flex;
+}
+.buton-try{
+    background: url("/img/button-try-to-hack-us.png");
+    width: 202px;
+    height: 42px;
+}
+.button-lean{
+    background: url("/img/learn-more.png");
+    width: 142px;
+    height: 42px;
+    margin-left: 20px;
+}
+.buton-try a, .button-lean a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.test-button{
+    background: blueviolet;
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+}
+.test-button a{
+    border-radius: inherit;
+
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.test-button a:hover{
+    color: yellow;
+    background: green;
+}
+.your-day-description h2{
+    color: #26272d;
+    font-family: "Varela Round";
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
 }
